@@ -52,7 +52,7 @@
    outline: none;
    cursor: pointer;
 }
-
+/*    MOBILE MENU           */
 .gpt3__navbar-menu {
    margin-left: 1rem;
    display: none;
@@ -70,4 +70,44 @@
    background: var(--color-footer);
    padding: 2rem;
    position: absolute;
+   right: 0;
+   min-width: 210px;
+   margin-top: 1.6rem;
+   border-radius: 5px;
+   top: 40px;
+
+   box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+}
+.gpt3__navbar-menu_container p {
+   margin: 2rem 0;
+}
+.gpt3__navbar-menu_container-links-sign {
+   display: none;
+}
+@media screen and (max-width: 1050px) {
+   .gpt3__navbar-links_container {
+      display: none;
+   }
+   .gpt3__navbar-menu {
+      display: flex;
+   }
+}
+@media screen and (max-width: 700px) {
+   .gpt3__navbar {
+      padding: 2rem 4rem;
+   }
+}
+@media screen and (max-width: 500px) {
+   .gpt3__navbar {
+      padding: 2rem;
+   }
+   .gpt3__navbar-sign {
+      display: none;
+   }
+   .gpt3__navbar-menu_container {
+      top: 20px;
+   }
+   .gpt3__navbar-menu_container-links-sign {
+      display: block;
+   }
 }

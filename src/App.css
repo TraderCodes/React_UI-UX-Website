@@ -13,39 +13,38 @@ a {
    text-decoration: none;
 }
 .gradient__bg {
-   /* ff 3.6+ */
    background: -moz-radial-gradient(
-      circle at 4% 25%,
-      rgba(0, 2, 133, 1) 0%,
-      rgba(4, 12, 24, 1) 100%
+      circle at 3% 25%,
+      rgba(0, 40, 83, 1) 0%,
+      rgba(4, 12, 24, 1) 25%
    );
 
    /* safari 5.1+,chrome 10+ */
    background: -webkit-radial-gradient(
-      circle at 4% 25%,
-      rgba(0, 2, 133, 1) 0%,
-      rgba(4, 12, 24, 1) 100%
+      circle at 3% 25%,
+      rgba(0, 40, 83, 1) 0%,
+      rgba(4, 12, 24, 1) 25%
    );
 
    /* opera 11.10+ */
    background: -o-radial-gradient(
-      circle at 4% 25%,
-      rgba(0, 2, 133, 1) 0%,
-      rgba(4, 12, 24, 1) 100%
+      circle at 3% 25%,
+      rgba(0, 40, 83, 1) 0%,
+      rgba(4, 12, 24, 1) 25%
    );
 
    /* ie 10+ */
    background: -ms-radial-gradient(
-      circle at 4% 25%,
-      rgba(0, 2, 133, 1) 0%,
-      rgba(4, 12, 24, 1) 100%
+      circle at 3% 25%,
+      rgba(0, 40, 83, 1) 0%,
+      rgba(4, 12, 24, 1) 25%
    );
 
    /* global 92%+ browsers support */
    background: radial-gradient(
-      circle at 4% 25%,
-      rgba(0, 2, 133, 1) 0%,
-      rgba(4, 12, 24, 1) 100%
+      circle at 3% 25%,
+      rgba(0, 40, 83, 1) 0%,
+      rgba(4, 12, 24, 1) 25%
    );
 }
 .gradient__text {
@@ -59,7 +58,7 @@ a {
    padding: 4rem 6rem;
 }
 .section__margin {
-   margin: 4rem 6rem;
+   margin: 4rem 2rem;
 }
 .scale-up-center {
    -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
@@ -87,19 +86,21 @@ a {
       transform: scale(1);
    }
 }
-
-@media screen and(max-width:700px) {
+@media screen and (max-width: 700px) {
    .section__padding {
       padding: 4rem;
    }
+
    .section__margin {
       margin: 4rem;
    }
 }
-@media screen and(max-width:550px) {
+
+@media screen and (max-width: 550px) {
    .section__padding {
       padding: 4rem 2rem;
    }
+
    .section__margin {
       margin: 4rem 2rem;
    }
