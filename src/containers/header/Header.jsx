@@ -16,7 +16,7 @@ const Header = () => (
          </p>
          <div className="gpt3__header-content__input">
             <input type="email" placeholder="Your Email Address" />
-            <button type="button">Get Started</button>
+            <button className="glow-on-hover" type="button">Get Started</button>
          </div>
          <div className="gpt3__header-content__people">
             <img src={people} />
