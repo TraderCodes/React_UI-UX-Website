@@ -185,7 +185,7 @@
 }
 
 .glow-on-hover:hover:before {
-    opacity: 1;
+    opacity: 10;
 }
 
 .glow-on-hover:after {
